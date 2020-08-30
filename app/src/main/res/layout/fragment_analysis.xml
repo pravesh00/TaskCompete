@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context=".Fragments.HomeFragment"
+    android:layout_width="401dp"
+    android:layout_height="579dp"
+    android:layout_centerInParent="true">
+    <TextView
+        android:id="@+id/python_game"
+        android:layout_width="124dp"
+        android:layout_height="24dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="4dp"
+        android:text="@string/python_game"
+        android:textAppearance="@style/python_gam"
+        android:gravity="top"
+        android:fontFamily="@font/roboto_slab"
+        android:lineHeight="24sp"
+        />
+    <TextView
+        android:id="@+id/days_remain"
+        android:layout_width="141dp"
+        android:layout_height="24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="59dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="41dp"
+        android:text="@string/days_remain"
+        android:textAppearance="@style/days_remain"
+        android:gravity="top"
+        android:fontFamily="@font/roboto_slab"
+        />
+    <TextView
+        android:id="@+id/some_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="294dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="41dp"
+        android:text="20/30"
+        android:textAppearance="@style/some_i"
+        android:gravity="top"
+        android:fontFamily="@font/roboto_slab"
+        android:lineHeight="24sp"
+        />
+    <TextView
+        android:id="@+id/select_any_"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="289dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/select_any_"
+        android:textAppearance="@style/select_any_"
+        android:gravity="top"
+        android:fontFamily="@font/roboto_slab"
+        android:lineHeight="24sp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/RecyclerAddFriend"
+        android:layout_width="wrap_content"
+        android:layout_height="167dp"
+        android:layout_marginTop="343dp"
+        tools:listitem="@layout/add_friend"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/white"></androidx.recyclerview.widget.RecyclerView>
+
+
+
+</RelativeLayout>

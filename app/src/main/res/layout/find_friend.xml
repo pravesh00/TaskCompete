@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="335dp"
+    android:layout_height="78dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10sp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:outlineAmbientShadowColor="@color/colorAccent">
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="335dp"
+        android:layout_height="78dp">
+        <View
+            android:id="@+id/rectangle_1"
+            android:layout_width="332dp"
+            android:layout_height="74dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/rectangle_1"
+            />
+        <ImageView
+            android:id="@+id/icons8_male"
+            android:layout_width="45dp"
+            android:layout_height="53dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/icons8_male"
+            android:src="@drawable/ic_baseline_person_24"
+            />
+        <TextView
+            android:id="@+id/ashutosh_ku"
+            android:layout_width="242dp"
+            android:layout_height="32dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="56dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="18dp"
+            android:text="@string/ashutosh_ku"
+            android:textAppearance="@style/ashutosh_ku"
+            android:gravity="center_horizontal|top"
+            android:fontFamily="@font/roboto_slab"
+            android:lineHeight="32sp"
+            />
+        <ImageView
+            android:id="@+id/icons8_add_"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="288dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="18dp"
+            android:src="@drawable/ic_baseline_person_add_24"
+            />
+
+
+
+
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

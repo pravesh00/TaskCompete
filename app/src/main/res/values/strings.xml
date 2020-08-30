@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">TaskCompete</string>
+    <string name="enter_your_">
+
+Enter Your Email
+</string>
+    <string name="enter_passw">
+
+Enter Password
+</string>
+    <string name="ashutosh_ku">
+
+Ashutosh Kumar
+</string>
+    <string name="days_remain">
+
+Days Remaining
+</string>
+    <string name="select_any_">
+
+Select any three or less for analysis:
+</string>
+
+
+    <string name="ashustosh_a">
+
+Ashustosh added you to Python Games.
+</string>
+    <string name="python_game">
+
+Python Games
+</string>
+    <string name="no_of_days_">
+
+No Of Days:
+</string>
+    <string name="add_new_com">
+
+Add New Competition
+</string>
+
+    <string name="some_id">
+
+30
+</string>
+    <string name="login">
+
+LOGIN
+</string>
+    <string name="register_yo">
+
+Register your account
+</string>
+    <string name="pravesh_cho">
+
+Pravesh Choudhary
+</string>
+    <string name="name_of_com">
+
+Name Of Competition:
+</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

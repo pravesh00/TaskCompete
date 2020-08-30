@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="335dp"
+    android:layout_height="78dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10sp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:outlineAmbientShadowColor="@color/colorAccent">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="335dp"
+    android:layout_height="78dp">
+
+    <ImageView
+        android:id="@+id/icons8_alar"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="12dp"
+        android:src="@drawable/ic_baseline_notifications_active_24"
+
+        />
+    <TextView
+        android:id="@+id/txtNotify"
+        android:layout_width="242dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="85dp"
+
+       android:layout_marginTop="9dp"
+        android:text="@string/ashustosh_a"
+        android:textAppearance="@style/ashustosh_a"
+        android:gravity="center_horizontal|top"
+        android:fontFamily="@font/roboto_slab"
+        android:lineHeight="26sp"
+        />
+
+
+
+
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

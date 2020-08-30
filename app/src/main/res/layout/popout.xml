@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rek"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@android:color/black">
+
+    <View
+        android:id="@+id/rectangle_1"
+        android:layout_width="wrap_content"
+        android:layout_height="541dp"
+        android:background="@drawable/rectan" />
+    <ImageButton
+        android:id="@+id/icons8_canc"
+        android:layout_width="37dp"
+        android:layout_height="37dp"
+        android:src="@drawable/ic_baseline_cancel_24"
+        android:layout_marginTop="5sp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5sp"
+        android:background="@drawable/icons8_canc"
+
+
+
+        />
+    <TextView
+        android:id="@+id/add_new_com"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:text="@string/add_new_com"
+        android:textAppearance="@style/add_new_com"
+        android:gravity="top"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:lineHeight="32sp"
+        android:layout_marginTop="48sp"
+        android:layout_centerHorizontal="true"
+        />
+    <EditText
+        android:id="@+id/rectangle_36"
+        android:layout_width="267dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="109dp"
+        android:background="@drawable/rectangle_3"
+        android:fontFamily="@font/roboto_slab"
+
+        android:lineHeight="24sp"
+        android:hint="Name of Competition"
+        android:textAppearance="@style/enter_your_"
+        android:textColorHint="@android:color/black"
+
+        android:textAlignment="center"
+
+        />
+    <EditText
+        android:id="@+id/rectanglee_3"
+        android:layout_width="267dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="177dp"
+        android:background="@drawable/rectangle_3"
+        android:fontFamily="@font/roboto_slab"
+
+        android:lineHeight="24sp"
+        android:hint="No Of Days"
+        android:textAppearance="@style/enter_your_"
+        android:textColorHint="@android:color/black"
+
+        android:textAlignment="center"
+
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="167dp"
+        android:layout_marginTop="251dp"
+        tools:listitem="@layout/add_friend"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/white"></androidx.recyclerview.widget.RecyclerView>
+    <Button
+        android:id="@+id/btnLogdin"
+        android:layout_width="169dp"
+        android:layout_height="52dp"
+        android:layout_centerHorizontal="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="461dp"
+        android:background="@drawable/rectangle_5"
+        android:elevation="4dp"
+        android:text="CREATE"
+        android:textAppearance="@style/login"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:lineHeight="24sp"
+        android:fontFamily="@font/roboto_slab"
+        ></Button>
+
+
+
+
+
+
+</RelativeLayout>

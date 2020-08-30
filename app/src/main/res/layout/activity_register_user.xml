@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splash_scre"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:background="@drawable/splash_scre"
+    >
+    <EditText
+        android:id="@+id/txtEmailRegister"
+        android:layout_width="267dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/rectangle_3"
+        android:hint="@string/enter_your_"
+        android:textAppearance="@style/enter_your_"
+        android:fontFamily="@font/roboto_slab"
+        android:lineHeight="24sp"
+        android:textAlignment="center"
+        android:textColorHint="@android:color/black"
+        />
+    <EditText
+        android:id="@+id/txtNameRegister"
+        android:layout_width="267dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="146dp"
+        android:background="@drawable/rectangle_3"
+        android:hint="Enter Your Name"
+        android:textAppearance="@style/enter_your_"
+        android:fontFamily="@font/roboto_slab"
+        android:lineHeight="24sp"
+        android:textAlignment="center"
+        android:textColorHint="@android:color/black"
+        />
+    <EditText
+        android:id="@+id/txtPassRegister"
+        android:layout_width="267dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="232dp"
+        android:background="@drawable/rectangle_3"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:textAppearance="@style/enter_your_"
+        android:fontFamily="@font/roboto_slab"
+        android:lineHeight="24sp"
+        android:textAlignment="center"
+        android:textColorHint="@android:color/black"
+        />
+    <EditText
+        android:id="@+id/txtConfirmPassRegister"
+        android:layout_width="267dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textAppearance="@style/enter_your_"
+        android:fontFamily="@font/roboto_slab"
+        android:lineHeight="24sp"
+        android:textAlignment="center"
+        android:textColorHint="@android:color/black"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="318dp"
+        android:background="@drawable/rectangle_3"
+        />
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="169dp"
+        android:layout_height="52dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="473dp"
+        android:background="@drawable/rectangle_5"
+        android:elevation="4dp"
+        android:textAppearance="@style/register"
+        android:lineHeight="24sp"
+        android:textAlignment="center"
+        android:text="Register"
+
+        />
+
+
+</RelativeLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:id="@+id/relative"
+    android:layout_height="match_parent"
+    tools:context=".navigator_home"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/rectangle_6"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:layout_alignParentTop="true"
+
+        android:background="@drawable/rectangle_6"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/icons8_male"
+        android:layout_width="45dp"
+        android:layout_height="53dp"
+
+
+
+        android:layout_alignParentTop="true"
+
+        android:src="@drawable/ic_baseline_person_24"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/rectangle_7"
+        android:layout_width="260dp"
+        android:layout_height="38dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rectangle_7"
+
+        android:lineHeight="24sp"
+        android:text="Friends"
+
+
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_6"
+        app:layout_constraintEnd_toStartOf="@+id/addCompetitionButton"
+        app:layout_constraintStart_toEndOf="@+id/icons8_male"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_6" />
+
+    <ImageButton
+        android:id="@+id/addCompetitionButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ic_baseline_add_box_24"
+
+
+        app:layout_constraintBottom_toBottomOf="@+id/rectangle_6"
+        app:layout_constraintEnd_toEndOf="@+id/rectangle_6"
+        app:layout_constraintTop_toTopOf="@+id/rectangle_6" />
+
+    <FrameLayout
+        android:id="@+id/frag_container"
+        android:layout_width="match_parent"
+        android:layout_height="530dp"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rectangle_6"></FrameLayout>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationBar"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/rectangle_6"
+        app:itemIconSize="30sp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+
+
+        app:menu="@menu/bottom_nav" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

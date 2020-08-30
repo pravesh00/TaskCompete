@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context=".Fragments.HomeFragment"
+    android:layout_width="match_parent"
+    android:layout_height="579dp"
+    android:layout_centerInParent="true">
+    <!--ImageButton
+        android:id="@+id/icons8_male"
+        android:layout_width="96dp"
+        android:layout_height="98dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="91dp"
+        android:background="@drawable/icons8_male"
+        android:src="@drawable/ic_baseline_person_24"
+        />-->
+
+    <TextView
+        android:id="@+id/pravesh_cho"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="227dp"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:gravity="center_horizontal|top"
+        android:lineHeight="24sp"
+        android:text="@string/pravesh_cho"
+        android:textAppearance="@style/pravesh_cho" />
+
+    <TextView
+        android:id="@+id/praveshmail"
+        android:layout_width="173dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="186dp"
+        android:layout_marginTop="293dp"
+        android:fontFamily="@font/roboto_slab"
+        android:gravity="center_horizontal|top"
+        android:lineHeight="18sp"
+        android:text="praveshmail@gmail.com"
+        android:textAppearance="@style/praveshmail" />
+
+    <TextView
+        android:id="@+id/email_"
+        android:layout_width="42dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="79dp"
+        android:layout_marginTop="295dp"
+        android:gravity="center_horizontal|top"
+        android:text="Email:"
+        android:textAppearance="@style/praveshmail" />
+    <TextView
+        android:id="@+id/password_"
+        android:layout_width="68dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="79dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="347dp"
+        android:text="Password:"
+        android:textAppearance="@style/praveshmail"
+        android:fontFamily="@font/roboto_slab"
+        android:gravity="center_horizontal|top"
+        android:lineHeight="18sp"
+        />
+    <TextView
+        android:id="@+id/some_id"
+        android:layout_width="164dp"
+        android:layout_height="18dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="158dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="347dp"
+        android:text="**************"
+        android:textAppearance="@style/praveshmail"
+        android:fontFamily="@font/roboto_slab"
+        android:gravity="center_horizontal|top"
+        android:lineHeight="18sp"
+        />
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="169dp"
+        android:layout_height="52dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="445dp"
+        android:background="@drawable/rectangle_0"
+        android:elevation="4dp"
+        android:text="Logout"
+        android:fontFamily="@font/roboto_slab_bold"
+        android:lineHeight="24sp"
+        android:textAppearance="@style/logout"
+
+        />
+
+
+
+
+
+
+
+</RelativeLayout>

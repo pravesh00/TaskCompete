@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="333dp"
+    android:layout_height="158dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8sp"
+    android:layout_centerHorizontal="true"
+    android:layout_gravity="center_horizontal"
+    >
+    <RelativeLayout
+        android:id="@+id/CompLay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        >
+        <TextView
+            android:id="@+id/name_of_com"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            android:text="@string/name_of_com"
+            android:textAppearance="@style/name_of_com"
+            android:gravity="top"
+            android:fontFamily="@font/roboto_slab"
+            android:lineHeight="32sp"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15sp"
+
+            />
+        <TextView
+            android:id="@+id/txtCompName"
+            android:layout_width="124dp"
+            android:layout_height="24dp"
+            android:text="@string/python_game"
+            android:textAppearance="@style/python_game"
+            android:gravity="top"
+            android:fontFamily="@font/roboto_slab"
+            android:lineHeight="24sp"
+            android:layout_marginTop="57sp"
+            android:layout_centerHorizontal="true"
+
+            />
+        <TextView
+            android:id="@+id/no_of_days_"
+            android:layout_width="130dp"
+            android:layout_height="32dp"
+            android:text="@string/no_of_days_"
+            android:textAppearance="@style/no_of_days_"
+            android:gravity="top"
+            android:layout_marginTop="109sp"
+            android:layout_marginLeft="42sp"
+            android:fontFamily="@font/roboto_slab"
+            android:lineHeight="32sp"
+            />
+        <TextView
+            android:id="@+id/txtCompDays"
+            android:layout_width="45dp"
+            android:layout_height="53dp"
+            android:text="@string/some_id"
+            android:textAppearance="@style/some_id"
+            android:gravity="top"
+            android:layout_marginTop="92sp"
+            android:layout_marginLeft="248sp"
+            android:fontFamily="@font/roboto_slab"
+            android:lineHeight="53sp"
+            />
+        <View
+            android:id="@+id/line_1"
+            android:layout_width="312dp"
+            android:layout_height="0dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+
+            android:background="@drawable/line_1"
+            android:layout_marginTop="150sp"
+            />
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

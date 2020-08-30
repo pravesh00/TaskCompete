@@ -1,0 +1,221 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="no_of_days_">
+
+        <item name="android:textSize">
+            24sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="select_any_">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <!-- styles.xml -->
+    <style name="some_i">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="days_remain">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="python_gam">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="add_new_com">
+
+        <item name="android:textSize">
+            24sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="ashutosh_ku">
+
+        <item name="android:textSize">
+            24sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="ashustosh_a">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="some_id">
+
+        <item name="android:textSize">
+            40sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="python_game">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="name_of_com">
+
+        <item name="android:textSize">
+            24sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="enter_your_">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="pravesh_cho">
+
+        <item name="android:textSize">
+            20sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="praveshmail">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="enter_passw">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="login">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #FBECEC
+        </item>
+
+    </style>
+    <style name="register_yo">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:textColor">
+            #000000
+        </item>
+
+    </style>
+    <style name="register">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #FBECEC
+        </item>
+
+    </style>
+    <style name="logout">
+
+        <item name="android:textSize">
+            18sp
+        </item>
+
+        <item name="android:textColor">
+            #552CCA
+        </item>
+
+    </style>
+
+
+</resources>

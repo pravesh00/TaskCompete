@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splash_scre"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    android:background="@drawable/splash_scre"
+    >
+
+    <EditText
+        android:id="@+id/txtLoginEmail"
+        android:layout_width="267dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="148dp"
+        android:background="@drawable/rectangle_3"
+        android:fontFamily="@font/roboto_slab"
+
+        android:lineHeight="24sp"
+        android:hint="@string/enter_your_"
+        android:textAppearance="@style/enter_your_"
+        android:textColorHint="@android:color/black"
+
+        android:textAlignment="center"
+
+        />
+
+
+
+    <EditText
+        android:id="@+id/txtLoginPass"
+        android:layout_width="267dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="271dp"
+        android:background="@drawable/rectangle_3"
+        android:hint="@string/enter_passw"
+        android:textAppearance="@style/enter_passw"
+        android:textColorHint="@android:color/black"
+
+        android:lineHeight="24sp"
+        android:fontFamily="@font/roboto_slab"
+        android:textAlignment="center"
+        android:inputType="textPassword"
+        />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="169dp"
+        android:layout_height="52dp"
+       android:layout_centerHorizontal="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="412dp"
+        android:background="@drawable/rectangle_5"
+        android:elevation="4dp"
+        android:text="@string/login"
+        android:textAppearance="@style/login"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:lineHeight="24sp"
+        android:fontFamily="@font/roboto_slab"
+        >
+
+    </Button>
+    <TextView
+        android:id="@+id/txtRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="18dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="554dp"
+        android:text="Register Your Account"
+        android:textAppearance="@style/register_yo"
+        android:gravity="top"
+        android:lineHeight="18sp"
+        android:fontFamily="@font/roboto_slab"
+        android:clickable="true"
+
+        />
+
+
+
+</RelativeLayout>
